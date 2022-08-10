@@ -30,7 +30,7 @@ const mensagensDeErro = {
         typeMismatch: 'O email digitado não é válido.'
     },
     senha: {
-        valueMissing: 'O campo nome não pode estar vazio.',
+        valueMissing: 'O campo senha não pode estar vazio.',
         patternMismatch: 'A senha deve conter entre 6 e 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos.'
     }
     ,dataNascimento: {
