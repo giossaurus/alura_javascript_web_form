@@ -12,6 +12,24 @@ export function valida(input) {
     }
 }
 
+const mensagensDeErro = {
+    nome: {
+        valueMissing: 'O campo nome não pode estar vazio'
+    },
+    email: {
+        valueMissing: 'O campo email não pode estar vazio',
+        typeMismatch: 'O email digitado não é válido.'
+    },
+    senha: {
+        valueMissing: 'O campo nome não pode estar vazio',
+        patternMismatch: 'A senha deve conter entre 6 e 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos.'
+    }
+    ,nome: {
+        valueMissing: 'O campo nome não pode estar vazio'
+    }
+    
+}
+
 const validadores = {
     dataNascimento:input => validaDataNascimento(input)
 }
