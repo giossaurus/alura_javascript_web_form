@@ -29,5 +29,3 @@ function maiorQue18(data) {
     return dataMais18 <= dataAtual
 
 }
-
-function 
